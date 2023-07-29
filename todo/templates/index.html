@@ -1,0 +1,24 @@
+{% extends 'basic.html' %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+{% block content %}
+
+<h1>All Your Tasks</h1>
+
+{% if tasks %}
+{% for info in tasks %}
+
+<div class="alert alert-info my-lg-4">
+    <h3>{{ info.title }}</h3>
+    <p>{{ info.task }}</p>
+</div>
+
+{% endfor %}
+{% else %}
+
+<p>No tasks...</p>
+
+{% endif %}
+{% endblock %}
