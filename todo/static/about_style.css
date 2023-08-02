@@ -1,0 +1,104 @@
+body {
+    text-indent: 75px;
+}
+
+
+.main-description {
+    width: 100%;
+    background: black;
+    height: 140px;
+}
+
+
+.contacts {
+    width: 100%;
+    background: grey;
+    height: 170px;
+    padding-top: 10px;
+}
+
+.main-description p {
+    color: white;
+}
+
+
+.main-description h1 {
+    padding-top: 10px;
+    color: white;
+}
+
+.main-description h5 {
+    color: aquamarine;
+}
+
+.contacts p {
+    color: white;
+}
+
+.contacts a {
+    margin: 10px;
+    color: white;
+}
+
+.education {
+    width: 300px;
+}
+
+.education h2 {
+    padding-top: 20px;
+    color: lightgreen;
+    text-decoration: underline;
+}
+
+.education p {
+    font-style: italic;
+}
+
+
+
+
+
+.work h2 {
+    padding-top: 20px;
+    color: lightgreen;
+    text-decoration: underline;
+}
+
+
+
+.work p {
+    font-style: italic;
+}
+
+
+.work li {
+    text-indent: 0px;
+}
+
+.work ul {
+    padding-left: 92px;
+    font-style: italic;
+}
+
+.skills h2 {
+    padding-top: 20px;
+    color: lightgreen;
+    text-decoration: underline;
+}
+
+.skills div {
+    padding-left: 0px;
+}
+
+.skills p {
+    padding-left: 15px;
+    color: white;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 30px;
+    width: 106px;
+    background-color: black;
+    text-indent: 15px;
+    display: inline-block;
+    text-align: center;
+}

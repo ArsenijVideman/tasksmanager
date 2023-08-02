@@ -1,9 +1,14 @@
 {% extends 'basic.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'about_style.css' %}">
 
 {% block title %}
 About Me
 {% endblock %}
 
 {% block content %}
-<h1>On this page will be info about me and my skills</h1>
+
+<h1><a href="{% url 'resume' %}">Ссылка на мое резюме</a></h1>
+
+
 {% endblock %}

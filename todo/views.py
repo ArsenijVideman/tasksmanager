@@ -12,6 +12,9 @@ class Feature:
     def about_me(request):
         return render(request, 'about_me.html')
 
+    def resume(request):
+        return render(request, 'resume.html')
+
     def create_new_task(request):
         error = ''
         if request.method == 'POST':
